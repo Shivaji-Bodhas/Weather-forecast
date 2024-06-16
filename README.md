@@ -37,6 +37,13 @@ A weather application built with React that provides current weather information
    git clone https://github.com/Shivaji-Bodhas/weather-forecast.git
    cd weather-forecast
 
+2. Install Axios for API requests:
+    ```bash
+   npm install axios
+3.Get your OpenWeather API key:
+- Sign up at OpenWeather and get your API key.
+   
+
 Usage
 1.Enter a city name or zip code in the input field.
 2.Click the "Get Weather" button to fetch and display weather information.
