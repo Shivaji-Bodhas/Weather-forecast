@@ -1,6 +1,59 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Weather App
+
+## Description
+
+A weather application built with React that provides current weather information based on user input. It includes a dark mode toggle and displays additional weather details like humidity and wind speed.
+
+## Features
+
+- Fetches current weather information based on user input (city name or zip code).
+- Displays location, temperature, date and time, humidity, and wind speed.
+- Dark mode and light mode toggle functionality.
+- Responsive design for various devices (desktop, tablet, mobile).
+- Handles API responses and errors gracefully.
+
+## Technologies Used
+
+- React
+- Axios
+- OpenWeather API
+- HTML
+- CSS
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Shivaji-Bodhas/weather-forecast.git
+   cd weather-forecast
+
+Usage
+1.Enter a city name or zip code in the input field.
+2.Click the "Get Weather" button to fetch and display weather information.
+3.Toggle between dark mode and light mode using the provided button.  
+
+Known Issues
+- Error handling for API responses can be improved.
+- The application currently supports only metric units for temperature.
+
+Contributing
+1.Fork the repository.
+2.Create a new branch (git checkout -b feature-branch).
+3.Make your changes.
+4.Commit your changes (git commit -m 'Add some feature').
+5.Push to the branch (git push origin feature-branch).
+6.Open a pull request.  
+
 
 ## Available Scripts
 
@@ -68,3 +121,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Contact
+If you have any questions or feedback, please contact me at shivajibodhas6@gmail.com.
